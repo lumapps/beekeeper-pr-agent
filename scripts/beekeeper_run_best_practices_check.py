@@ -31,7 +31,7 @@ def main():
     if len(sys.argv) < 2:
         print("Usage: python scripts/beekeeper_run_best_practices_check.py <PR_URL>")
         print(
-            "Example: python scripts/beekeeper_run_best_practices_check.py https://github.com/beekpr/beekeeper-analytics/pull/546")
+            "Example: python scripts/beekeeper_run_best_practices_check.py https://github.com/lumapps/beekeeper-analytics/pull/546")
         sys.exit(1)
 
     pr_url = sys.argv[1]

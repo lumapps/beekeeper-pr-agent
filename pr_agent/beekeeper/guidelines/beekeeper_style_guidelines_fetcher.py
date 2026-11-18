@@ -12,7 +12,7 @@ from pr_agent.beekeeper.guidelines import BEEKEEPER_GLOBALLY_RELEVANT_GUIDELINES
 class BeekeeperStyleGuidelinesFetcher:
     def __init__(
             self,
-            repo_url='beekpr/beekeeper-engineering-hub',
+            repo_url='lumapps/beekeeper-engineering-hub',
             token=None,
             branch="master",
             target_folder='guidelines'
