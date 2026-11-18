@@ -46,7 +46,7 @@ jobs:
     steps:
       - name: PR Agent action step
         id: pragent
-        uses: beekpr/beekeeper-pr-agent@master
+        uses: lumapps/beekeeper-pr-agent@master
         env:
           OPENAI_KEY: ${{ secrets.OPENAI_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -62,7 +62,7 @@ export GITHUB_TOKEN={YOUR_GITHUB_TOKEN}
 export ANTHROPIC_API_KEY={YOUR_ANTHROPIC_API_KEY}
 
 pip install -e .
-python3 scripts/beekeeper_run_best_practices_check.py https://github.com/beekpr/beekeeper-analytics/pull/546
+python3 scripts/beekeeper_run_best_practices_check.py https://github.com/lumapps/beekeeper-analytics/pull/546
 
 
 ```
